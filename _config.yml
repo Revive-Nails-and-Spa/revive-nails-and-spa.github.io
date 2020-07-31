@@ -16,15 +16,14 @@ api_token: # Enter API token here
 
 # Contact info
 contact:
-    phone: 932 50 540
-    emergency: 931 53 234
-    email: contact@yoursite.com
-    address: Von schroeders 273, <br> Viña del mar - Chile
+    phone: (336) 579-9824
+    email: support@revivenailsandspagso.com
+    address: "3912 Battleground Ave #104, Greensboro, NC 27410"
 
 # Opening hours
-monday_friday: 9:00 – 18:00
-saturday: 10:00 – 17:00
-sunday: 10:00 – 15:00
+monday_thursday: 9:30 - 19:30
+friday_saturday: 9:00 – 19:30
+sunday: 11:30 – 18:00
 
 # Testimonials
 testimonials:
@@ -33,19 +32,19 @@ testimonials:
 # Map
 map:
     zoom: 17
-    address: Von schroeders 273, Viña del mar, Chile
+    address: 3912 Battleground Ave \#104, Greensboro, NC 27410
     address_details: svg/min/logo.svg
 
 # Social settings
-facebook: http://facebook.com
-twitter: http://twitter.com
-instagram: http://instagram.com
-youtube: http://youtube.com
-skype: skype:obaez_design?userinfo
+facebook: https://www.facebook.com/revivenailsspagso/
+# twitter: http://twitter.com
+# instagram: http://instagram.com
+# youtube: http://youtube.com
+# skype: skype:obaez_design?userinfo
 feed: yes
 
 # Footer
-copyright: © 2015 DentistSmile - All rights reserved
+copyright: © 2020 Revive Nails and Spa - All rights reserved
 
 # Build settings
 markdown: kramdown
