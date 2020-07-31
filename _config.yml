@@ -1,6 +1,6 @@
 # Site settings
-title: DentistSmile | Dental Jekyll Theme
-description: "A responsive Jekyll theme for dental clinics."
+title: Revive Nails & Spa | Professional Nail Care for Ladies & Gentlemen
+description: "Professional Nail Care for Ladies & Gentlemen."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "revive-nails-and-spa.github.io" # the name of your domain
 logo_url: svg/min/logo.svg
@@ -8,8 +8,8 @@ logo_url: svg/min/logo.svg
 # Hero
 hero: 
     hero_img: hero.jpg
-    hero_title: DentistSmile
-    hero_description: A responsive Jekyll theme for dental clinics.
+    hero_title: Revive Nails & Spa
+    hero_description: Professional Nail Care for Ladies & Gentlemen.
 
 # Contact form
 api_token: # Enter API token here
@@ -17,7 +17,7 @@ api_token: # Enter API token here
 # Contact info
 contact:
     phone: (336) 579-9824
-    email: support@revivenailsandspagso.com
+    email: support@revivenailsspagso.com
     address: "3912 Battleground Ave #104, Greensboro, NC 27410"
 
 # Opening hours
@@ -41,10 +41,10 @@ facebook: https://www.facebook.com/revivenailsspagso/
 instagram: http://instagram.com/revivenailsspagso
 # youtube: http://youtube.com
 # skype: skype:obaez_design?userinfo
-feed: yes
+# feed: yes
 
 # Footer
-copyright: © 2020 Revive Nails and Spa - All rights reserved
+copyright: © 2020 Revive Nails & Spa - All rights reserved
 
 # Build settings
 markdown: kramdown
