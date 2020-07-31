@@ -1,21 +1,21 @@
-- image_thumb: nails-1.jpg
-  image_large: nails-1.jpg
-  image_alt: something meaningful
-
 - image_thumb: nails-9.jpg
   image_large: nails-9.jpg
+  image_alt: something meaningful
+
+- image_thumb: nails-1.jpg
+  image_large: nails-1.jpg
   image_alt: something meaningful
 
 - image_thumb: nails-7.jpg
   image_large: nails-7.jpg
   image_alt: something meaningful
 
-- image_thumb: nails-15.jpg
-  image_large: nails-15.jpg
-  image_alt: something meaningful
-
 - image_thumb: nails-8.jpg
   image_large: nails-8.jpg
+  image_alt: something meaningful
+
+- image_thumb: nails-15.jpg
+  image_large: nails-15.jpg
   image_alt: something meaningful
 
 - image_thumb: nails-3.jpg
