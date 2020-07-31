@@ -50,7 +50,7 @@ layout: default
         <ul>
             {% if site.contact.phone %}<li><strong>Phone:</strong> <a href="tel:{{ site.contact.phone }}" data-toggle="tooltip" data-placement="bottom" title="{{ site.contact.phone }}" style="color: #FFF">{{ site.contact.phone }}</a></li>{% endif %}
             {% if site.contact.emergency %}<li><strong>Emergency:</strong> {{ site.contact.emergency }}</li>{% endif %}
-            {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
+            {% if site.contact.email %}<li><strong>Email:</strong> <a href="mailto:{{ site.contact.email }}" data-toggle="tooltip" data-placement="bottom" title="{{ site.contact.email }}" style="color: #FFF">{{ site.contact.email }}</a></li>{% endif %}
         </ul>
     </div>
     <div class="col-sm-4">
