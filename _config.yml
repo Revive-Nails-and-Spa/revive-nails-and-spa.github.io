@@ -3,7 +3,7 @@ title: Revive Nails & Spa | Professional Nail Care for Ladies & Gentlemen
 description: "Professional Nail Care for Ladies & Gentlemen."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "revive-nails-and-spa.github.io" # the name of your domain
-logo_url: svg/min/logo.svg
+logo_url: img/logo.png
 
 # Hero
 hero: 
@@ -33,7 +33,7 @@ testimonials:
 map:
     zoom: 17
     address: "3912 Battleground Ave #104, Greensboro, NC 27410"
-    address_details: svg/min/logo.svg
+    address_details: img/logo.png
 
 # Social settings
 facebook: https://www.facebook.com/revivenailsspagso/
