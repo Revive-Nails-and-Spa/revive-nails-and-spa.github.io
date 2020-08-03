@@ -2,8 +2,7 @@
 -------------------------------------------------*/
 .gallery {
     @extend %clearfix;
-    @extend %space;
-    padding-bottom: 0px;
+    padding: $spaceDouble+5;
 }
 
 .gallery-item {

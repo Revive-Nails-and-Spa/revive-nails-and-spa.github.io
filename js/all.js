@@ -8483,6 +8483,15 @@ $.fn.gmap3 = function () {
 
 (function($) {
     'use strict';
+ 
+    /* Handle Calendly form
+    ----------------------------------------------*/
+    $('#calendly-form').on("submit", function(event) {
+        event.preventDefault();
+        Calendly.initPopupWidget({url: 'https://calendly.com/lancenewby/booking?text_color=607676&primary_color=29b2b2&'+$( this ).serialize().replace(/\+/g,'%20').replace(/&a1=/g, '&a1=1')});
+        
+        return false;
+    });
 
     /* Hide menu after click
     ----------------------------------------------*/
