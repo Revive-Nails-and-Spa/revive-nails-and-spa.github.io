@@ -8561,7 +8561,7 @@ $.fn.gmap3 = function () {
         $(this).gmap3({
             marker: {
                 values: [{
-                    address: $(this).attr("data-address"),
+                    address: $(this).attr("data-address")
                 }],
                 options:{
                     draggable: false
