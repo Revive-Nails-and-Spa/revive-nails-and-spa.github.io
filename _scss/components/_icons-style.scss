@@ -4,7 +4,7 @@
     width: 100%;
     padding: $space;
     margin-bottom: $space;
-    background: $white;
+    background: lighten($colorPrimary, 50%);
     text-align: center;
 }
 
