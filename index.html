@@ -28,11 +28,11 @@ layout: default
                     <input name="email" type="email" placeholder="Email" required>
                 </div>
                 <div class="form-field">
-                    <textarea name="a2" placeholder="Message" required></textarea>
+                    <textarea name="a2" placeholder="Message"></textarea>
                 </div>
                 <!-- <input type="submit" class="btn btn-default" value="Send"> -->
                 <!-- Calendly link widget begin -->
-                <button class="btn btn-default">Book an Appointment</button>
+                <button class="btn btn-default">Book Appointment</button>
                 <!-- <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/lancenewby/booking?background_color=61b2b8&text_color=ffffff&primary_color=e2e3e3'});return false;">Book an Appointment</a> -->
                 <!-- Calendly link widget end -->
             </form>
@@ -162,7 +162,7 @@ layout: default
             {% for treatment in site.data.treatments %}
                 <div class="col-sm-6 col-md-4">
                     <div class="icon-box">
-                        <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
+                        <img src="img/{{ treatment.icon }}">
                         <h4>{{ treatment.title }}</h4>
                         <p>{{ treatment.description }}</p>
                     </div>
