@@ -78,7 +78,7 @@
         $(this).gmap3({
             marker: {
                 values: [{
-                    address: $(this).attr("data-address"),
+                    address: $(this).attr("data-address")
                 }],
                 options:{
                     draggable: false
