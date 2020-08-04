@@ -79,7 +79,6 @@
             marker: {
                 values: [{
                     address: $(this).attr("data-address"),
-                    data: $(this).attr("data-address-details")
                 }],
                 options:{
                     draggable: false
