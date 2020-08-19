@@ -1,0 +1,13 @@
+<script src="{{ site.baseurl }}/js/google-places.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDt-H5Q0w-TH6SVkakuerSftc6F8VaegnQ&signed_in=true&libraries=places"></script>
+
+<script>
+jQuery(document).ready(function( $ ) {
+   $("#google-reviews").googlePlaces({
+        placeId: 'ChIJjelC2iUdU4gR5Q4M4ZwwkWM'
+      , render: ['reviews']
+      , min_rating: 4
+      , max_rows:4
+   });
+});
+</script>

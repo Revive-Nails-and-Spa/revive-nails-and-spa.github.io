@@ -13,8 +13,8 @@ layout: default
         </div>
     </div>
 
-    <div class="container-fluid">
-        
+    
+    <div class="container-fluid calendly-form">
         <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
             <h3><svg class="icon icon-calendar"><use xlink:href="#icon-calendar"></use></svg><strong>Make an Appointment</strong></h3>
             <form id="calendly-form" method="post">
@@ -33,14 +33,33 @@ layout: default
                 <!-- <input type="submit" class="btn btn-default" value="Send"> -->
                 <!-- Calendly link widget begin -->
                 <button class="btn btn-default">Book Appointment</button>
-                <!-- <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/lancenewby/booking?background_color=61b2b8&text_color=ffffff&primary_color=e2e3e3'});return false;">Book an Appointment</a> -->
+                <!-- <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/revivenailsandspa/1hr?background_color=61b2b8&text_color=ffffff&primary_color=e2e3e3'});return false;">Book an Appointment</a> -->
                 <!-- Calendly link widget end -->
             </form>
         </div>
-
     </div>
 </div>
 <!-- End Hero -->
+
+<!-- ALERT Banner -->
+<div class="container-fluid">
+    <h2 class="section-title" style="margin: 35px auto;">Appointment Required!</h2>
+    <div class="alert alert-danger" role="alert">
+        <p><strong>Covid-19 ALERT:</strong> Due to Covid-19, we are operating by Appointment Only until further notice. Due to NC Governor Mandate, we are requiring all customers to wear a face mask.</p>
+    </div>
+    <div class="alert alert-danger" role="alert">
+        <ul>
+            <li>Revive Nails & Spa has taken the following steps to safeguard the safety of our staff and clients during this time.</li>
+            <li>We are following the recommendations of the Centers for Disease Control and Prevention (CDC) Covid-19 Safety Protocol.</li>
+            <li>Staff is require to wash their hands before and after each service.</li>
+            <li>Stations will be clean with Clorox Wipes before each Service.</li>
+            <li>Maintain 6 feet distance between stations</li>
+            <li>Provide hand sanitizer or hand bar soap for customers to wash their hands prior to service.</li>
+            <li>Staff is required to take a daily temperature check prior to coming to work and to stay home if they have a temperature 100.4 or higher.</li>
+        </ul>
+    </div>
+</div>
+<!-- End ALERT -->
 
 <!-- Start Gallery 1 -->
 <div id="gallery" class="gallery">
@@ -198,29 +217,19 @@ layout: default
 {% endcomment %}
 
 <!-- Start Testimonials -->
-<div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
-    <div class="overlay-container">
-        <div class="overlay"></div>
-        <div class="container-fluid">
-            <div id="testimonial-carousel">
-                {% for testimonial in site.data.testimonials %}
-                    <div class="testimonial-item">
-                        <svg class="icon icon-quote-left"><use xlink:href="#icon-quote-left"></use></svg>
-                        <blockquote>
-                            <p>{{ testimonial.description }}</p>
-                            <footer>
-                                {{ testimonial.name }}
-                                <small>{{ testimonial.title }}</small>
-                            </footer>
-                        </blockquote>
-                    </div>
-                {% endfor %}
-            </div>
-        </div>
+<div id="testimonials" class="testimonials">
+    <div class="container-fluid">
+        <div class="overlay-container">
+            <h2 class="section-title">Reviews</h2>
+            <div id="google-reviews"></div>
+            <a class="btn btn-default" href="https://www.google.com/search?source=hp&ei=QKA9X_WlI46WwbkP5o6ZCA&q=revive+nails+and+spa+greensboro+nc&oq=revive+nails+and+spa&gs_lcp=CgZwc3ktYWIQARgCMgIIADIICC4QxwEQrwEyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeOgUILhCTAjoLCC4QsQMQxwEQowI6CAgAELEDEIMBOgIILjoICC4QsQMQgwE6CAguEMcBEKMCOgUIABCSAzoFCAAQsQM6BQguELEDOgQIABAKOgsILhDHARCvARCTAlDeAljlH2CsPGgBcAB4AIABhQGIAb4RkgEENy4xNJgBAKABAaoBB2d3cy13aXo&sclient=psy-ab#lrd=0x88531d25da42e98d:0x6391309ce10c0ee5,1,,," role="button" style="margin-top: 25px">See All Google Reviews</a>
+        </div> 
     </div>
 </div>
 <!-- End Testimonials -->
 
+{% comment %}
 <!-- Start Map -->
 <div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div>
 <!-- End Map -->
+{% endcomment %}
