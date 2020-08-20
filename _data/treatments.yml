@@ -1,26 +1,26 @@
 - icon: icon-powder.png
   title: SNS (Dipping Powder)
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  description: 
 
 - icon: icon-manicure.png
   title: Manicure
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  description: 
 
 - icon: icon-pedicure.png
   title: Pedicure
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+  description: We use disposable pedicure liners.
 
 - icon: icon-eyebrow.png
   title: Eyebrows
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+  description: 
 
 - icon: icon-nail-polish.png
   title: Acrylic
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  description: 
 
 - icon: icon-waxing.png
   title: Waxing
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  description: 
 
 - icon: icon-couple.png
   title: Wedding Party Discounts

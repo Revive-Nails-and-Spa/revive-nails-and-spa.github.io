@@ -43,7 +43,10 @@ layout: default
 
 <!-- ALERT Banner -->
 <div class="container-fluid">
-    <h2 class="section-title" style="margin: 35px auto;">Appointment Required!</h2>
+    <h2 class="section-title" style="margin: 35px auto;">
+        Appointment Required!
+        {% if site.contact.phone %}<br /><span style="font-size: .75em;">Call <a href="tel:{{ site.contact.phone }}" data-toggle="tooltip" data-placement="bottom" title="{{ site.contact.phone }}">{{ site.contact.phone }}</a></span>{% endif %}
+    </h2>
     <div class="alert alert-danger" role="alert">
         <p><strong>Covid-19 ALERT:</strong> Due to Covid-19, we are operating by Appointment Only until further notice. Due to NC Governor Mandate, we are requiring all customers to wear a face mask.</p>
     </div>
@@ -129,7 +132,7 @@ layout: default
         <div class="row">
             <div class="col-sm-6">
                 <h3>Welcome to Revive Nails & Spa</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nostrum ab vero temporibus magnam, delectus!</p>
+                <p>We are Independent Family-Own Nail Salon locate in Greensboro, serving the Triad since 2018. We take pride in providing a Clean & Relaxing Salon where customers can come and de-stress from daily life.</p>
 
                 <div class="media">
                     <div class="media-left">
@@ -164,6 +167,7 @@ layout: default
                     </div>
                 </div>
             </div>
+
             <div class="col-sm-6">
                 <img src="img/about.jpg" alt="...">
             </div>
