@@ -44,18 +44,19 @@ layout: default
 <!-- ALERT Banner -->
 <div class="container-fluid">
     <h2 class="section-title" style="margin: 35px auto;">
-        Appointment Required!
+        <u>Appointment Required!</u>
         {% if site.contact.phone %}<br /><span style="font-size: .75em;">Call <a href="tel:{{ site.contact.phone }}" data-toggle="tooltip" data-placement="bottom" title="{{ site.contact.phone }}">{{ site.contact.phone }}</a></span>{% endif %}
+        <br /><strong style="font-size: .75em; color: grey;">We Use Pedicure Liners!</strong>
     </h2>
     <div class="alert alert-danger" role="alert">
-        <p><strong>Covid-19 ALERT:</strong> Due to Covid-19, we are operating by Appointment Only until further notice. Due to NC Governor Mandate, we are requiring all customers to wear a face mask.</p>
+        <p><strong>Covid-19 ALERT:</strong> Due to Covid-19, we are operating by Appointment Only until further notice. Please call ahead to verify our Hours of Operation {% if site.contact.phone %}<a href="tel:{{ site.contact.phone }}" data-toggle="tooltip" data-placement="bottom" title="{{ site.contact.phone }}">{{ site.contact.phone }}</a>{% endif %}. Due to NC Governor Mandate, we are requiring all customers to wear a face mask.</p>
     </div>
     <div class="alert alert-danger" role="alert">
         <ul>
             <li>Revive Nails & Spa has taken the following steps to safeguard the safety of our staff and clients during this time.</li>
             <li>We are following the recommendations of the Centers for Disease Control and Prevention (CDC) Covid-19 Safety Protocol.</li>
             <li>Staff is require to wash their hands before and after each service.</li>
-            <li>Stations will be clean with Clorox Wipes before each Service.</li>
+            <li>Stations will be clean with Clorox Wipes before and after each Service.</li>
             <li>Maintain 6 feet distance between stations</li>
             <li>Provide hand sanitizer or hand bar soap for customers to wash their hands prior to service.</li>
             <li>Staff is required to take a daily temperature check prior to coming to work and to stay home if they have a temperature 100.4 or higher.</li>
@@ -96,7 +97,7 @@ layout: default
     </div>
     <div class="col-sm-4">
         <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
-        <h3>Opening Hours</h3>
+        <h3>Hours of Operation</h3>
         <table>
             <tbody>
                 <tr>
@@ -134,7 +135,7 @@ layout: default
                 <h3>Welcome to Revive Nails & Spa</h3>
                 <p>We are Independent Family-Own Nail Salon locate in Greensboro, serving the Triad since 2018. We take pride in providing a Clean & Relaxing Salon where customers can come and de-stress from daily life.</p>
 
-                <div class="media">
+                <div class="media" style="visibility: hidden;">
                     <div class="media-left">
                         <div class="boxed-icon">
                             <svg class="icon icon-heart"><use xlink:href="#icon-heart"></use></svg>
@@ -145,7 +146,7 @@ layout: default
                     </div>
                 </div>
 
-                <div class="media">
+                <div class="media" style="visibility: hidden;">
                     <div class="media-left">
                         <div class="boxed-icon">
                             <svg class="icon icon-medkit"><use xlink:href="#icon-medkit"></use></svg>
@@ -156,7 +157,7 @@ layout: default
                     </div>
                 </div>
 
-                <div class="media">
+                <div class="media" style="visibility: hidden;">
                     <div class="media-left">
                         <div class="boxed-icon">
                             <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
