@@ -179,6 +179,16 @@ layout: default
 </div>
 <!-- End About -->
 
+{% if site.ccards.shopsmallflyer %}
+<!-- Shop Small Flyer -->
+<div class="shop-small-flyer">
+    <div class="container-fluid">
+        <img src="{{ site.baseurl }}/img/{{ site.ccards.shopsmallflyer.image }}" alt="{{ site.ccards.shopsmallflyer.image_alt }}">
+    </div>
+</div>
+<!-- End Shop Small -->
+{% endif %}
+
 <!-- Start services -->
 <div id="services" class="treatments">
     <div class="container-fluid">
