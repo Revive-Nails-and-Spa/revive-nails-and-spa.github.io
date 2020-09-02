@@ -3,7 +3,7 @@ title: Revive Nails & Spa | Professional Nail Care for Ladies & Gentlemen
 description: "Professional Nail Care for Ladies & Gentlemen."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "revive-nails-and-spa.github.io" # the name of your domain
-logo_url: img/logo.png
+logo_url: img/revive_logo.png
 
 # Hero
 hero: 
@@ -60,5 +60,5 @@ exclude: [
 ]
 
 # Theme Settings
-analytics: 
+analytics: true
 google_verification:
