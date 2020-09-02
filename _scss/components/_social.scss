@@ -13,3 +13,14 @@
         color: $white;
     }
 }
+
+/* CCARDS */
+.ccards {
+    @extend %space;
+    background: lighten($colorPrimary, 40%);
+    text-align: center;
+    
+    h3 {
+        color: $colorPrimary;
+    }
+}

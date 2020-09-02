@@ -2,7 +2,7 @@
 -------------------------------------------------*/
 .treatments {
     @extend %space;
-    background: #e6e6fa;
+    background: lighten($colorPrimary, 40%);
     .row {
         @include breakpoint(small) {
             display: flex;

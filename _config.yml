@@ -43,6 +43,11 @@ instagram: http://instagram.com/revivenailsspagso
 # skype: skype:obaez_design?userinfo
 # feed: yes
 
+# Credit Cards Accepted
+ccards: 
+    image: cards_accepted.png
+    image_alt: "All major credit cards accepts - Pay your way!"
+
 # Footer
 copyright: Revive Nails & Spa | All rights reserved
 

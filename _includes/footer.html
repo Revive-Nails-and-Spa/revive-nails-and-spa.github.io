@@ -1,7 +1,14 @@
 <!-- Start Footer -->
+{% if site.ccards %}
+<div class="ccards">
+    <div class="container-fluid">
+        <img src="{{ site.baseurl }}/img/{{ site.ccards.image }}" alt="{{ site.ccards.image_alt }}">
+        <h3>All major credit cards accepted - Pay your way</h3>
+    </div>
+</div>
+{% endif %}
 <footer class="main-footer">
     <div class="container-fluid">
-        
         <ul class="social">
             {% if site.facebook %}<li><a href="{{ site.facebook }}"><svg class="icon icon-facebook" style="width: 2em; height: 2em;"><use xlink:href="#icon-facebook"></use></svg></a></li>{% endif %}
             {% if site.twitter %}<li><a href="{{ site.twitter }}"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a></li>{% endif %}
