@@ -47,6 +47,9 @@ instagram: http://instagram.com/revivenailsspagso
 ccards: 
     image: cards_accepted.png
     image_alt: "All major credit cards accepts - Pay your way!"
+    shopsmall:
+        image: amex_shop_small.jpg
+        image_alt: "We are looking forward to seeing you again! #ShopSmall"
 
 # Footer
 copyright: Revive Nails & Spa | All rights reserved

@@ -1,4 +1,11 @@
 <!-- Start Footer -->
+{% if site.ccards.shopsmall %}
+<div class="shop-small-banner">
+    <div class="container-fluid">
+        <img src="{{ site.baseurl }}/img/{{ site.ccards.shopsmall.image }}" alt="{{ site.ccards.shopsmall.image_alt }}">
+    </div>
+</div>
+{% endif %}
 {% if site.ccards %}
 <div class="ccards">
     <div class="container-fluid">

@@ -24,3 +24,7 @@
         color: $colorPrimary;
     }
 }
+.shop-small-banner {
+    @extend %space;
+    text-align: center;
+}
