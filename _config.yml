@@ -21,7 +21,9 @@ contact:
     address: "3912 Battleground Avenue STE 104, Greensboro, NC 27410"
 
 # Opening hours
-monday_thursday: 9:30 - 7:30
+monday: 9:30 - 7:30
+tuesday: Closed
+wednesday_thursday: 9:30 - 7:30
 friday_saturday: 9:00 – 7:30
 sunday: 11:30 – 6:00
 
