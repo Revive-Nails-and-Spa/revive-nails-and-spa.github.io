@@ -48,6 +48,7 @@ layout: default
         {% if site.contact.phone %}<br /><span style="font-size: .75em;">Call <a href="tel:{{ site.contact.phone }}" data-toggle="tooltip" data-placement="bottom" title="{{ site.contact.phone }}">{{ site.contact.phone }}</a></span>{% endif %}
         <br /><strong style="font-size: .75em; color: black; text-transform: uppercase;">We Use Pedicure Liners!</strong>
     </h2>
+    {% comment %}
     <div class="alert alert-danger" role="alert">
         <p><strong>Covid-19 ALERT:</strong> Due to Covid-19, we are operating by Appointment Only until further notice.</p>
         <p style="font-size: 1.2em;"><u>Please call ahead to verify our Hours of Operation</u>{% if site.contact.phone %} <span style="white-space: nowrap;"><a href="tel:{{ site.contact.phone }}" data-toggle="tooltip" data-placement="bottom" title="{{ site.contact.phone }}">{{ site.contact.phone }}</a></span>{% endif %}.</p>
@@ -64,6 +65,7 @@ layout: default
             <li>Staff is required to take a daily temperature check prior to coming to work and to stay home if they have a temperature 100.4 or higher.</li>
         </ul>
     </div>
+    {% endcomment %}
 </div>
 <!-- End ALERT -->
 
