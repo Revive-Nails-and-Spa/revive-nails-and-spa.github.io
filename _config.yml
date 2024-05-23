@@ -21,11 +21,11 @@ contact:
     address: "3912 Battleground Avenue STE 104, Greensboro, NC 27410"
 
 # Opening hours
-monday: 9:30 - 7:30
+monday: 9:30 am - 7:30 pm
 tuesday: Closed
-wednesday_thursday: 9:30 - 7:30
-friday_saturday: 9:00 – 7:30
-sunday: 11:30 – 6:00
+wednesday_thursday: 9:30 am - 7:30 pm
+friday_saturday: 9:00 am – 7:30 pm
+sunday: 11:30 am – 6:00 pm
 
 # Testimonials
 testimonials:
@@ -48,7 +48,7 @@ instagram: http://instagram.com/revivenailsspagso
 # Credit Cards Accepted
 ccards: 
     image: cards_accepted.png
-    image_alt: "All major credit cards accepts - Pay your way!"
+    image_alt: "Pay your way!"
     shopsmallbanner:
         image: amex_shop_small_banner.jpg
         image_alt: "We are looking forward to seeing you again! #ShopSmall"

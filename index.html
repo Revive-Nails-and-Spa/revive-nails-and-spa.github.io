@@ -97,7 +97,9 @@ layout: default
         <ul>
             {% if site.contact.phone %}<li><strong>Phone:</strong> <a href="tel:{{ site.contact.phone }}" data-toggle="tooltip" data-placement="bottom" title="{{ site.contact.phone }}" style="color: #FFF">{{ site.contact.phone }}</a></li>{% endif %}
             {% if site.contact.emergency %}<li><strong>Emergency:</strong> {{ site.contact.emergency }}</li>{% endif %}
+            {% comment %}
             {% if site.contact.email %}<li><strong>Email:</strong> <a href="mailto:{{ site.contact.email }}" data-toggle="tooltip" data-placement="bottom" title="{{ site.contact.email }}" style="color: #FFF">{{ site.contact.email }}</a></li>{% endif %}
+            {% endcomment %}
         </ul>
     </div>
     <div class="col-sm-4">
@@ -133,6 +135,9 @@ layout: default
         <h3>Location</h3>
             <p>
                 {{ site.contact.address }}
+            </p>
+            <p>
+                {{ site.contact.phone }}
             </p>
     </div>
 </div>
