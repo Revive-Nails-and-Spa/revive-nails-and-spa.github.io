@@ -74,4 +74,5 @@ exclude: [
 
 # Theme Settings
 analytics: true
+google_reviews: true
 google_verification:
